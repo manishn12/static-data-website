@@ -1,0 +1,51 @@
+.tour{
+    background: #D3D3D3;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+
+}
+
+img{
+    border-top-left-radius:0.8rem ;
+    border-top-right-radius: 0.8rem;
+    display:block;
+    width:100%;
+}
+.img-container{
+    position: relative;
+}
+.close-btn{
+    position: absolute;
+    display: block;
+    top: 5%;
+    right:5%;
+    color: #82b340;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all 0.5s ease-out;
+    opacity:0;
+}
+
+.img-container:hover .close-btn{
+    opacity:1;
+}
+
+.tour-info h3{
+    text-transform: uppercase;
+    color: #82b340;
+}
+.tour-info h4{
+    text-transform: capitalize;
+    margin: 0.4rem 0 0.6rem 0;
+
+}
+.tour-info h5{
+text-transform: capitalize;
+}
+.tour-info h5 span{
+    color: #82b340;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
